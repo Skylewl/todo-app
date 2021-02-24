@@ -53,6 +53,7 @@ function handleClearAll(e) {
 }
 
 // only code that wasn't copied
+// hides button if there isnt any text
 document.getElementById("todoSubmit").style.visibility = "hidden";
 function success() {
     if(document.getElementById("todoInput").value.length <= 0) { 

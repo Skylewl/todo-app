@@ -51,6 +51,8 @@ document.getElementById('clearAll').addEventListener('click', handleClearAll);
 function handleClearAll(e) {
     document.querySelector('ul').innerHTML = '';
 }
+
+// only code that wasn't copied
 document.getElementById("todoSubmit").style.visibility = "hidden";
 function success() {
     if(document.getElementById("todoInput").value.length <= 0) { 
